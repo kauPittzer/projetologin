@@ -11,7 +11,7 @@
 @media screen and (min-width: 768px) and (max-width: 992px) {
     section#login {
         width: 80vw;
-        height: 45vh;
+        height: 250px;
     }
     section#login div#form {
         float: right;
@@ -28,7 +28,7 @@
 @media screen and (min-width: 992px) {
     section#login{
         width: 860px;
-        height: 45vh;
+        height: 280px;
     }
     section#login div#imagem {
         float: right;
