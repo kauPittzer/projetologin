@@ -11,6 +11,7 @@
 @media screen and (min-width: 768px) and (max-width: 992px) {
     section#login {
         width: 80vw;
+        height: 45vh;
     }
     section#login div#form {
         float: right;
@@ -26,16 +27,23 @@
 /*VERSÃO TELAS GRANDES*/
 @media screen and (min-width: 992px) {
     section#login{
-        width: 900px;
+        width: 860px;
+        height: 45vh;
     }
     section#login div#imagem {
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
     }
     section#login div#form {
-        float: right;
+        float: left;
         width: 50%;
+    }
+    div#form p {
+        font-size: 1em;
+    }
+    div#form h1 {
+        font-size: 1.4em;
     }
 }
 
